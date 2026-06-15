@@ -4,13 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Morse Code Tree Translator & Trainer</title>
-<!-- Tailwind CSS CDN -->
-<script src="https://cdn.tailwindcss.com"></script>
+<!-- Static utility CSS (replaces Tailwind CDN runtime to reduce memory usage) -->
+<link rel="stylesheet" href="styles.css">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700;800&display=swap');
-  
   body {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'JetBrains Mono', 'SF Mono', 'Cascadia Code', 'Roboto Mono', Consolas, Menlo, monospace;
     background-color: #030712; /* Neutral dark 950 */
     background-image: 
       radial-gradient(at 0% 0%, rgba(29, 78, 216, 0.1) 0, transparent 50%), 
